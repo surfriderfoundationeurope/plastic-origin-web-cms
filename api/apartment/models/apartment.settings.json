@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apartments",
+  "info": {
+    "name": "apartment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "string"
+    },
+    "background_color": {
+      "type": "string"
+    },
+    "neighborhood": {
+      "type": "string"
+    },
+    "square_meter": {
+      "type": "integer"
+    },
+    "number_of_room": {
+      "type": "integer"
+    },
+    "number_of_bedroom": {
+      "type": "integer"
+    },
+    "number_of_bathroom": {
+      "type": "integer"
+    },
+    "sold": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cover_picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "pictures": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "pictures_before": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
