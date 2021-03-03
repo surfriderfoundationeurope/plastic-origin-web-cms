@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "solution_cards",
+  "info": {
+    "name": "solution-card",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_fr": {
+      "type": "string",
+      "maxLength": 120,
+      "required": true
+    },
+    "title_en": {
+      "type": "string",
+      "required": true,
+      "maxLength": 120
+    },
+    "intro_fr": {
+      "type": "string"
+    },
+    "intro_en": {
+      "type": "string"
+    },
+    "description_fr": {
+      "type": "richtext"
+    },
+    "description_en": {
+      "type": "richtext"
+    },
+    "sanitation_label": {
+      "type": "boolean",
+      "default": false
+    },
+    "wild_landfill_label": {
+      "type": "boolean",
+      "default": false
+    },
+    "wind_label": {
+      "type": "boolean",
+      "default": false
+    },
+    "food_packaging_label": {
+      "type": "boolean",
+      "default": false
+    },
+    "cigarette_butts_label": {
+      "type": "boolean",
+      "default": false
+    },
+    "agricultural_label": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

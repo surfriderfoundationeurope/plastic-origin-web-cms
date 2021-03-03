@@ -1,3 +1,5 @@
-# Strapi application
+# PLASTIC ORIGINS HEADLESS CMS
 
-A quick description of your strapi application
+Headless cms created to generate content on the website plastic-origins
+
+#strapi # graphql #headless_CMS
