@@ -13,13 +13,13 @@
   "attributes": {
     "title_fr": {
       "type": "string",
-      "maxLength": 120,
+      "maxLength": 70,
       "required": true
     },
     "title_en": {
       "type": "string",
       "required": true,
-      "maxLength": 120
+      "maxLength": 70
     },
     "intro_fr": {
       "type": "string"
