@@ -11,14 +11,15 @@ WORKDIR /usr/src/app
 # Install app dependencies
 COPY package*.json /usr/src/app/
 #COPY yarn.lock /usr/src/app/
-RUN npm install
-#RUN yarn install
+
+#RUN npm install
+RUN yarn install
 
 # Bundle app source
 COPY . /usr/src/app
 
-#RUN yarn build
-RUN npm run build
+RUN yarn build
+#RUN npm run build
 EXPOSE 1337
 
 CMD [ "yarn", "start" ]
