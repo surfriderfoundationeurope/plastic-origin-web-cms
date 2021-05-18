@@ -92,6 +92,14 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "pdf_content_fr": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "pdf_content_en": {
+      "type": "string",
+      "maxLength": 200
     }
   }
 }
