@@ -25,26 +25,14 @@
     },
     "intro_fr": {
       "type": "string",
-      "maxLength": 200,
-      "default": "Intro (max.200)",
+      "maxLength": 250,
+      "default": "Intro (max.250)",
       "required": true
     },
     "intro_en": {
       "type": "string",
-      "maxLength": 200,
-      "default": "Intro (max.200)",
-      "required": true
-    },
-    "description_fr": {
-      "type": "richtext",
-      "maxLength": 800,
-      "default": "Description (max.800)",
-      "required": true
-    },
-    "description_en": {
-      "type": "richtext",
-      "maxLength": 800,
-      "default": "Description (max.800)",
+      "maxLength": 250,
+      "default": "Intro (max.250)",
       "required": true
     },
     "sanitation_label": {
@@ -95,11 +83,19 @@
     },
     "pdf_content_fr": {
       "type": "string",
-      "maxLength": 200
+      "maxLength": 250
     },
     "pdf_content_en": {
       "type": "string",
-      "maxLength": 200
+      "maxLength": 250
+    },
+    "description_fr": {
+      "type": "string",
+      "maxLength": 800
+    },
+    "description_en": {
+      "type": "string",
+      "maxLength": 800
     }
   }
 }
