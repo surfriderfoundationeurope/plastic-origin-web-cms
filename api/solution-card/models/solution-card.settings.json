@@ -13,26 +13,26 @@
   "attributes": {
     "title_fr": {
       "type": "string",
-      "maxLength": 40,
+      "maxLength": 45,
       "required": true,
-      "default": "Titre (max.40)"
+      "default": "Titre (max.car.45) - https://wordcounter.net/"
     },
     "title_en": {
       "type": "string",
       "required": true,
-      "maxLength": 40,
-      "default": "Title (max.40)"
+      "maxLength": 45,
+      "default": "Title (max.car.45) - https://wordcounter.net/"
     },
     "intro_fr": {
       "type": "string",
       "maxLength": 250,
-      "default": "Intro (max.250)",
+      "default": "Intro (max.car.250) - https://wordcounter.net/",
       "required": true
     },
     "intro_en": {
       "type": "string",
       "maxLength": 250,
-      "default": "Intro (max.250)",
+      "default": "Intro (max.car.250) - https://wordcounter.net/",
       "required": true
     },
     "sanitation_label": {
@@ -40,10 +40,6 @@
       "default": false
     },
     "wild_landfill_label": {
-      "type": "boolean",
-      "default": false
-    },
-    "wind_label": {
       "type": "boolean",
       "default": false
     },
@@ -81,21 +77,31 @@
       "plugin": "upload",
       "required": false
     },
-    "pdf_content_fr": {
-      "type": "string",
-      "maxLength": 250
-    },
-    "pdf_content_en": {
-      "type": "string",
-      "maxLength": 250
-    },
     "description_fr": {
-      "type": "string",
-      "maxLength": 800
+      "type": "text",
+      "maxLength": 800,
+      "required": true,
+      "default": "(max.car.800)"
     },
     "description_en": {
-      "type": "string",
-      "maxLength": 800
+      "type": "text",
+      "maxLength": 800,
+      "required": true,
+      "default": "(max.car.800)"
+    },
+    "what_you_will_find_fr": {
+      "type": "text",
+      "default": "(max.car.250) - https://wordcounter.net/",
+      "maxLength": 250
+    },
+    "what_you_will_find_en": {
+      "type": "text",
+      "default": "(max.car.250) - https://wordcounter.net/",
+      "maxLength": 250
+    },
+    "other_label": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
