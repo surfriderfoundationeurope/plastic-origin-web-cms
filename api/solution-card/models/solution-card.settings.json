@@ -59,8 +59,8 @@
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
@@ -102,6 +102,14 @@
     "other_label": {
       "type": "boolean",
       "default": false
+    },
+    "pdf_link_fr": {
+      "type": "string",
+      "required": true
+    },
+    "pdf_link_en": {
+      "type": "string",
+      "required": true
     }
   }
 }
