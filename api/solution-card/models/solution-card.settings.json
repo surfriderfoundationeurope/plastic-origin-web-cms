@@ -39,7 +39,7 @@
       "type": "boolean",
       "default": false
     },
-    "wild_landfill_label": {
+    "illegal_dumping_label": {
       "type": "boolean",
       "default": false
     },
