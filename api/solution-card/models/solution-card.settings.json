@@ -39,10 +39,6 @@
       "type": "boolean",
       "default": false
     },
-    "illegal_dumping_label": {
-      "type": "boolean",
-      "default": false
-    },
     "food_packaging_label": {
       "type": "boolean",
       "default": false
@@ -110,6 +106,10 @@
     "pdf_link_en": {
       "type": "string",
       "required": true
+    },
+    "illegal_dumping_label": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
